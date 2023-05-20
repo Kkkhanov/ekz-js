@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 80%;
+    background-color: rgba(124, 104, 238, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;  
+    border-radius: 0px 0px 10px 10px;
+    height: 6em;
+    box-sizing: border-box;
+    position: fixed;
+}
+header img{
+    margin-bottom: 16px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 700px;
+    justify-content: space-evenly;
+}
+nav a{
+    height: 100%;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: blueviolet;
+}
+nav a:hover{
+    background-color: rgb(124, 104, 238);
+    transition: .5s;
+}
+img{
+    margin-top: 24px;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 24px;
+}
+.intro{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+section{
+    margin-top: 24px;
+    width: 80%;
+    box-sizing: border-box;
+}
+.main-info{
+    display: flex;
+}
+.main-info div{
+    background-color: rgb(230, 230, 250);
+}
+.about-torment{
+    margin-left: 24px;
+}
+.about-torment h2{
+    text-align: center;
+}
+.about-torment li{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.about-torment h3{
+    margin-top: 32px;
+}
+.weight-classes{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.weight-classes li{
+    margin-left: 16px;
+}
+.about-sport{
+    display: flex;
+    width: 50%;
+    text-align: justify;
+    padding: 32px;
+    align-items: center;
+    border-radius: 10px;
+}
+.about-torment{
+    width: 50%;
+    padding: 32px;
+    border-radius: 10px;
+}
+.weight-classes h4{
+    margin-top: 16px;
+}
+.about-torment p{
+    margin-top: 24px;
+    font-weight: bold;
+}
+.info{
+    width: 80%;
+    margin-top: 24px;
+}
+.schedules{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+.day{
+    padding: 32px;
+    background-color: rgb(230, 230, 250);
+    border-radius: 10px;
+}
+.day td{
+    padding: 16px;
+}
+.tomato{
+    color: rgb(255, 99, 71);
+}
+.time{
+    text-align: center;
+    border-right: 1px solid;
+}
+.date{
+    color: rgb(255, 140, 0);
+}
+.day-2{
+    margin-left: 8px;
+}
+.location{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    height: 500px;
+}
+.location-info{
+    background-color: rgba(165, 42, 42, 0.8);
+    padding: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+    justify-content: center;
+}
+.about-sport li{
+    margin-top: 24px;
+}
+.location-info li{
+    list-style-type: none;
+    margin-top: 24px;
+}
+.location-info ul{
+    margin-left: 0; 
+    padding-left: 0;
+}
+.location div{
+    width: 50%;
+}
+form{
+    margin-top: 24px;
+    background-color: rgb(230, 230, 250);
+    padding: 24px;
+    width: 500px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+label{
+    display: block;
+    margin-top: 16px;
+}
+iframe{
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+}
+.form-submit{
+    margin-top: 8px;
+}
+.agree{
+    margin-left: 8px;
+}
+legend{
+    font-weight: bold;
+    color: rgb(255, 140, 0);
+}
+.w100{
+    width: 90%;
+   
+}
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.text-center{
+    display: flex;
+    align-items: center;
+}
+select{
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: none;
+}
+.button{
+    background-color: rgba(67, 149, 182, 0.5);
+}
+.but2{
+    margin-left: 8px;
+}
+.button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+#user-weight{
+    width: 10%;
+    margin-top: 8px;
+}
+@media screen and (max-width: 900px) {
+    nav a{
+        width: 90px;
+        font-size: 11px;
+    }
+    .main-info{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+    }
+    .main-info div{
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+    }
+    .schedules{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .location{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 524px;
+    }
+    
+    .location div{
+        width: 93%;
+        border-radius: 10px;
+    }
+    .about-torment{
+        margin-top: 24px;
+    }
+    .day-2{
+        margin-top: 24px;
+        margin-left: 0;
+    }
+    iframe{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .map{
+        width: 80%;
+        margin-top: 24px;
+    }
+    form{
+        width: 80%;
+        margin-top: 24px;
+    }
+    .intro{
+        font-size: 8px;
+    }
+}
